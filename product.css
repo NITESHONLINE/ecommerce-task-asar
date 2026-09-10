@@ -1,0 +1,286 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.main{
+    
+    height: 100vh;
+    width: 100vw;
+    padding-top: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.main .banner{
+ height: 45vh;
+ width: 100vw;   
+ margin-bottom: 100px;
+}
+.main .banner img{
+  position: absolute;
+  width: 95vw;
+}
+.main .banner .bannerText{
+    padding-top: 80px;
+    height: 45vh;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.main .banner .bannerText h4{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.main .banner .bannerText h2{
+    font-size: 40px;
+}
+.main .banner .bannerText h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: red;
+    text-decoration: underline;
+}
+.main .banner .bannerText button{
+    font-size: 16px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 14px;
+    border: none;
+}
+.cardWrapper{
+    width: 80vw;
+    height: 40vh;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.cardWrapper .card img{
+    position: absolute;
+    border-radius: 20px;
+    height:300px;
+    width:290px;
+}
+.cardWrapper .card .cardText {
+position: relative;
+top: 30px;
+width: 20vw;
+left: 30px;
+}
+.cardWrapper .card .cardText h1{
+    color: #3E4A5E;
+padding-bottom: 20px;
+}
+.cardWrapper .card .cardText ul{
+    padding-bottom: 20px;
+}
+.cardWrapper .card .cardText ul li{
+    position: relative;
+    color: #3E4A5E;
+    left: 20px;
+    padding-bottom: 8px;
+}
+.cardWrapper .card .cardText ul li::marker{
+    color: #3A9046;
+}
+.cardWrapper .card .cardText ul li:hover{
+    color: #3A9046 ;
+    cursor: pointer;
+}
+.cardWrapper .card .cardText button{
+    padding: 9px 10px 9px 10px;
+    color: white;
+    background-color: #FF0404;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
+.shopLayout{
+    width: 81vw;
+    display: grid;
+    grid-template-columns: 18.8vw 1fr;
+    gap: 30px;
+}
+.sidebar .categories{
+   width: 100%;
+    outline: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px 20px 20px 50px;
+    margin-bottom: 40px;
+}
+
+.sidebar .categories h1{
+    color: #515C6E;
+    font-size: 27px;
+    padding-bottom: 4px;
+}
+.sidebar .categories ul{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.sidebar .categories li{
+list-style-type: disc;
+border-bottom: 1px dashed #e2e8f0;
+  padding: 8px;
+  width: 100%;
+  color: #718096;
+}
+.sidebar .categories li span {
+  float: right;
+}
+.sidebar .categories li:hover{
+    color: #3A9046;
+    cursor: pointer;
+}
+.sidebar .categories .range{
+    cursor: pointer;
+    width: 190px;
+    margin-top: 20px;
+    accent-color: green;
+}
+.sidebar .categories h6{
+    font-size: 13px;
+    color: #718096;
+}
+.sidebar .categories .color {
+
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sidebar .categories .color h1{
+    text-align: center;
+
+    width: 30px;
+    height: 30px;
+background-color: black;
+border-radius: 50%;
+}
+
+.sidebar .categories .color h1 span{
+    font-size: 20px;
+    opacity: 0;
+    color: white;
+}
+.sidebar .categories .color h1 span:hover{
+    cursor: pointer;
+    opacity: 1;
+   display: inline;
+}
+.sidebar .categories .radio{
+    accent-color: green;
+    margin-top: 20px;
+   margin-bottom: 15px;
+}
+.sidebar .categories .radio:hover{
+    cursor: pointer;
+    color: #3A9046;
+}
+.productDetails .box1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    gap:20px;
+}
+.productDetails .box1 .card{
+    margin-top: 20px;
+    padding: 20px;
+    outline:1px solid gray;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+.productDetails .box1 .card .sup:hover{
+    cursor: pointer;
+   content: url('https://econis.wpbingosite.com/wp-content/uploads/2019/04/whole-leaf-aloe-juice3-1-600x600.jpg')
+}
+.productDetails .box1 .card .fruits:hover{
+    cursor: pointer;
+   content: url('https://econis.wpbingosite.com/wp-content/uploads/2020/12/homestyle-ranch-dressing-600x600.jpg')
+}
+.productDetails .box1 .card .meat:hover{
+    cursor: pointer;
+   content: url('https://econis.wpbingosite.com/wp-content/uploads/2018/10/bone-in-breast-600x600.jpg')
+}
+
+.productDetails .box1 .card .love{
+position: absolute;
+top: 20px;
+right: 20px;
+font-size: 24px;
+}
+.productDetails .box1 .card .shopping{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(220, 226, 226);
+    border-radius: 50%;
+position: absolute;
+bottom: 25px;
+right: 20px;
+font-size: 16px;
+}
+.productDetails .box1 .card i{
+position: absolute;
+bottom:6px;
+right: 8px;
+}
+.productDetails .box1 .card h3{
+    padding-bottom: 4px;
+    color: #718096;
+    font-size: 12px;
+}
+.productDetails .box1 .card h4{
+    color: #3E4A5E;
+    font-weight: 600;
+    font-size: 8px;
+    padding-bottom: 7px;
+}
+.productDetails .box1 .card h1{
+    color: #3E4A5E;
+    font-weight: 600;
+    font-size: 12px;
+    padding-bottom: 7px;
+}
+.productDetails .box1 .card h2{
+    color:#3A9046;
+    font-weight: 900;
+    font-size: 19px;
+    padding-bottom: 7px;
+}
+.productDetails .box1 .card h2 span{
+    font-size: 15px;
+    color: gray;
+    text-decoration: line-through;
+}
+.productDetails .box1 .card .orange{
+    padding: 5px 15px 5px 15px;
+    position: absolute;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+top: 20px;
+left: 20px;
+}
+.productDetails .box1 .card .red{
+    padding: 5px 15px 5px 15px;
+    position: absolute;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+top: 20px;
+font-size: 10px;
+left: 70px;
+}
