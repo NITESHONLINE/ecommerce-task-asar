@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Store List</title>
-    <script src="https://kit.fontawesome.com/4531127e67.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/vendor_style.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">    <link rel="stylesheet" href="css/vendor_style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
@@ -44,6 +44,7 @@
             </ul>
         </div>
     </header>
+
     <nav>
         <div class="nav_up">
             <img src="vendorassets/images/logo.png" alt="logo" class="logo">
@@ -98,7 +99,176 @@
             </strong>
         </div>
 
+        <div class="breadcrumb">
+            <span>Home</span>
+            <i class="fa-solid fa-chevron-right"></i>
+            <strong>Store List</strong>
+        </div>
+
     </nav>
+
+
+
+    <main class="store_page">
+
+        <section class="store_content">
+            <div class="store_toolbar">
+                <span>Total stores showing: 6</span>
+
+                <div class="toolbar_right">
+                    <button class="filter_btn">
+                        <i class="fa-solid fa-filter"></i>
+                        FILTER
+                    </button>
+
+                    <label>
+                        Sort by:
+                        <select>
+                            <option>Most Recent</option>
+                            <option>Oldest</option>
+                        </select>
+                    </label>
+
+                    <i class="fa-solid fa-table-cells view_icon"></i>
+                    <i class="fa-solid fa-list view_icon"></i>
+                </div>
+            </div>
+
+            <div class="store_grid">
+                <article class="store_card">
+                    <div class="store_image"
+                        style="background-image: url('https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=900&q=80');">
+                        <div class="store_info">
+                            <span class="closed">Closed</span>
+                            <h2>Green House</h2>
+                            <div class="stars">★★★★☆</div>
+                            <p>1430 Satrkey, Pretoria, Austria</p>
+                            <p><i class="fa-solid fa-phone"></i> 1240145645</p>
+                        </div>
+                    </div>
+                    <div class="store_bottom">
+                        <button class="arrow_btn"><i class="fa-solid fa-chevron-right"></i></button>
+                        <div class="store_icon"><i class="fa-solid fa-shop"></i></div>
+                    </div>
+                </article>
+
+                <article class="store_card">
+                    <div class="store_image"
+                        style="background-image: url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=900&q=80');">
+                        <div class="store_info">
+                            <span class="closed">Closed</span>
+                            <h2>Juice Store</h2>
+                            <div class="stars">★★★★☆</div>
+                            <p>1430 Satrkey, Pretoria, South Africa, Albania</p>
+                            <p><i class="fa-solid fa-phone"></i> 0015767563</p>
+                        </div>
+                    </div>
+                    <div class="store_bottom">
+                        <button class="arrow_btn"><i class="fa-solid fa-chevron-right"></i></button>
+                        <div class="store_icon"><i class="fa-solid fa-shop"></i></div>
+                    </div>
+                </article>
+
+                <article class="store_card">
+                    <div class="store_image"
+                        style="background-image: url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=80');">
+                        <div class="store_info">
+                            <span class="closed">Closed</span>
+                            <h2>Food Store</h2>
+                            <div class="stars">★★★★☆</div>
+                            <p>1430 Satrkey, Pretoria, Afghanistan</p>
+                            <p><i class="fa-solid fa-phone"></i> 000123482</p>
+                        </div>
+                    </div>
+                    <div class="store_bottom">
+                        <button class="arrow_btn"><i class="fa-solid fa-chevron-right"></i></button>
+                        <div class="store_icon"><i class="fa-solid fa-shop"></i></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
 </body>
+
+<footer class="site_footer">
+    <div class="footer_top">
+        <div class="footer_column">
+            <h3>Categories</h3>
+            <a href="">Fruits & Vegetables</a>
+            <a href="">Dairy Products</a>
+            <a href="">Package Foods</a>
+            <a href="">Beverage</a>
+            <a href="">Health & Wellness</a>
+        </div>
+
+        <div class="footer_column">
+            <h3>Customer</h3>
+            <a href="">Contact Us</a>
+            <a href="">Track Your Order</a>
+            <a href="">Returns Policy</a>
+            <a href="">Delivery Information</a>
+            <a href="">Loyalty Program</a>
+            <a href="">Help & FAQ</a>
+            <a href="">Warranty & Repair</a>
+        </div>
+
+        <div class="footer_column">
+            <h3>My Account</h3>
+            <a href="">My Account</a>
+            <a href="">Contact</a>
+            <a href="">Shopping cart</a>
+            <a href="">Shop</a>
+        </div>
+
+        <div class="footer_contact">
+            <div class="support">
+                <i class="fa-solid fa-headphones"></i>
+                <div>
+                    <strong>CALL US 24/7</strong>
+                    <b>(1900) -1088 - 88</b>
+                </div>
+            </div>
+
+            <p><strong>Address:</strong> 100 McEvoy St, Alexandria NSW 2015 Australia</p>
+            <p><u><strong>Open Hours :</strong></u></p>
+            <p>Monday - Saturday: 8:00 am - 4:00pm<br>Sunday: Close</p>
+
+            <div class="socials">
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_bottom">
+        <div>
+            <p>© 2021 <strong>Econis.</strong> All rights reserved.</p>
+            <div class="payments">
+                <span>●●</span>
+                <span> Pay</span>
+                <span>VISA</span>
+                <span>AMEX</span>
+                <span>PayPal</span>
+                <span>clearpay</span>
+            </div>
+        </div>
+
+        <div class="subscribe">
+            <i class="fa-regular fa-envelope"></i>
+            <div>
+                <strong>SUBSCRIBE US</strong>
+                <p>Sign up and get a voucher of worth $250.00</p>
+            </div>
+        </div>
+
+        <div class="email_box">
+            <input type="email" placeholder="Your email address...">
+            <button><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+</footer>
 
 </html>
